@@ -4,13 +4,27 @@
   "description": "A simpler react modal.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "author": "rt2zz <zack@root-two.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git@github.com:rt2zz/react-dumb-modal.git"
+  },
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "babel-core": "^5.8.23",
+    "babel-loader": "^5.3.2",
+    "browserify": "^11.0.1",
+    "gulp": "^3.9.0",
+    "gulp-uglify": "^1.2.0",
+    "react": "^0.13.3",
+    "rimraf": "^2.4.3",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "webpack": "^1.12.1"
   },
   "keywords": [
     "react",
@@ -20,5 +34,8 @@
   "bugs": {
     "url": "https://github.com/rt2zz/react-dumb-modal/issues"
   },
-  "homepage": "https://github.com/rt2zz/react-dumb-modal"
+  "homepage": "https://github.com/rt2zz/react-dumb-modal",
+  "dependencies": {
+    "react": "^0.13.3"
+  }
 }
